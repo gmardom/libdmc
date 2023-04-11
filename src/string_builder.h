@@ -19,8 +19,8 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#ifndef SB_H_
-#define SB_H_
+#ifndef STRING_BUILDER_H_
+#define STRING_BUILDER_H_
 
 #include <stdbool.h>
 #include <stddef.h>
@@ -63,4 +63,4 @@ SB_DEF void           sb_trim_front(StringBuilder *sb);
 SB_DEF void           sb_trim_back(StringBuilder *sb);
 // SB_DEF void           sb_remove(StringBuilder *sb, size_t pos, size_t cnt);
 
-#endif // SB_H_
+#endif // STRING_BUILDER_H_

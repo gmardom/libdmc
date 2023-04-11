@@ -19,8 +19,8 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#ifndef SV_H_
-#define SV_H_
+#ifndef STRING_VIEW_H_
+#define STRING_VIEW_H_
 
 #include <stdbool.h>
 #include <stddef.h>
@@ -75,4 +75,4 @@ SV_DEF StringView  sv_chop_back(StringView *sv, size_t count);
 SV_DEF StringView  sv_chop_by_delim(StringView *sv, char delim);
 SV_DEF StringView  sv_chop_by_sv(StringView *sv, StringView delim);
 
-#endif // SV_H_
+#endif // STRING_VIEW_H_
