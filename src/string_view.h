@@ -58,7 +58,6 @@ SV_DEF char        sv_front(StringView *sv);
 SV_DEF char        sv_back(StringView *sv);
 SV_DEF size_t      sv_size(StringView *sv);
 SV_DEF const char *sv_data(StringView *sv);
-              
 
 SV_DEF bool        sv_equal(StringView *a, StringView *b);
 SV_DEF bool        sv_equal_ignorecase(StringView *a, StringView *b);
